@@ -1,7 +1,7 @@
 {
   "secretToken" : "123",
   "stageBucket" : "auto-deployer",
-  "location" : "United States",
+  "location" : "us-central1",
   "deployments": [
     {
       "repository":"mattyat3s/google-cloud-functions",
