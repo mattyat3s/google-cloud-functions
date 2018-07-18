@@ -1,0 +1,12 @@
+{
+  "secretToken" : "123",
+  "stageBucket" : "auto-deployer",
+  "location" : "United States",
+  "deployments": [
+    {
+      "repository":"cloud-functions",
+      "path":"/gcf_hello_world",
+      "functionName":"helloGET"
+    }
+  ]
+}
