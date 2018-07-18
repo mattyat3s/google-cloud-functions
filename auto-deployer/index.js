@@ -233,7 +233,7 @@ function validateRequest (req) {
  * @param {Object} res Cloud Function response context.
  */
 exports.githubAutoDeployer = (req, res) => {
-  const user = req.body.repository.owner.name;
+  const user = req.body.repository.owner.login;
   const repo = req.body.repository.name;
   const repository = `${user}/${repo}`;
 
