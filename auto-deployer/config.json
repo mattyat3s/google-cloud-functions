@@ -4,7 +4,7 @@
   "location" : "United States",
   "deployments": [
     {
-      "repository":"mattyat3s/cloud-functions",
+      "repository":"mattyat3s/google-cloud-functions",
       "path":"/gcf_hello_world",
       "functionName":"helloGET"
     }
