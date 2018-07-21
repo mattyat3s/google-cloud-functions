@@ -211,7 +211,7 @@ function validateRequest (req) {
   return Promise.resolve()
     .then(() => {
       const digest = crypto
-        .createHmac('sha1', config.secretToken)
+        .createHmac('sha1', process.env.SecretToken)
         .update(JSON.stringify(req.body))
         .digest('hex');
 

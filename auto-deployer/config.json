@@ -1,5 +1,4 @@
 {
-  "secretToken" : "123",
   "stageBucket" : "auto-deployer",
   "location" : "us-central1",
   "deployments": [
